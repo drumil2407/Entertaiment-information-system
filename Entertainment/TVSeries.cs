@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Entertainment
 {
-    class TVSeries
+    class TVSeries : AbstractEntertaiment
     {
+
+
+
+
     }
 }
