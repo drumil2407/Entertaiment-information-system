@@ -13,9 +13,15 @@ namespace Entertainment
             M.ActionMovieList();
             M.BiographyMovieList();
             M.RomanceMovieList();
-            M.ThrillerList();
-            M.ScifiList();
+            M.ThrillerMovieList();
+            M.ScifiMovieList();
 
+            TVSeries TV = new TVSeries();
+            TV.ActionTvSeriesList();
+            TV.BiographyTvSeriesList();
+            TV.RomanceTvSeriesList();
+            TV.ThrillerTvseriesList();
+            TV.ScifiTvSeriesList();
 
 
         }

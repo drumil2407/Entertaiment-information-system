@@ -3,18 +3,20 @@ using System.Collections.Generic;
 
 namespace Entertainment
 {
-    //Here I give 5 action genere with 5 movies
+    //Here I give 5  genre with 5 movies
 
     class Movies : AbstractEntertaiment
     {
-        //Using a generic list for Action movies name's list
+        //I use a generic list to add movie names in 5 genre category in methods as below
+
+        //ActionMovieList, BiographyMovieList, RomanceMovieList, ThrillerMovieLis, ScifiMovieList  
 
         private new List<string> MoviesName = new List<string>();
         
 
         public void ActionMovieList()
         {
-
+            
             MoviesName.Add("The Dark Knight");
             MoviesName.Add("Inception");
             MoviesName.Add("Gladiator");
@@ -54,7 +56,7 @@ namespace Entertainment
 
         }
 
-        public void ThrillerList()
+        public void ThrillerMovieList()
         {
 
             MoviesName.Add("Parasite");
@@ -67,7 +69,7 @@ namespace Entertainment
                 Console.WriteLine(MoviesName[i]);
         }
 
-        public void ScifiList()
+        public void ScifiMovieList()
         {
 
             MoviesName.Add("The passengers");
