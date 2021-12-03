@@ -10,6 +10,10 @@ namespace Entertainment
             Movies M = new Movies();
             //class Tvseries object
             TVSeries TV = new TVSeries();
+
+            MoviesInformation MI = new MoviesInformation();
+
+         
             
             Console.WriteLine("+++++++Welcome to Entertainment Catalog System+++++++++");
             Console.WriteLine("\n");
@@ -38,52 +42,67 @@ namespace Entertainment
                     Console.WriteLine("4.Thriller");
                     Console.WriteLine("5.Scifi");
 
+                    
+                        int a = Convert.ToInt32(Console.ReadLine());
+                        switch (a)
+                        {
 
-                    int a = Convert.ToInt32(Console.ReadLine());
-                    switch (a)
-                    {
+                            case 1:
 
-                        case 1:
-                            Console.WriteLine("\n");
-                            Console.WriteLine("#Action Movies List#");
-                            Console.WriteLine("\n");
-                            M.ActionMovieList();
+                                Console.WriteLine("\n");
+                                Console.WriteLine("#Action Movies List#");
+                                Console.WriteLine("\n");
+                                M.ActionMovieList();
+                                Console.WriteLine("\n");
+                                Console.WriteLine("Enter your choice to see movie information:");
+                            int c = Convert.ToInt32(Console.ReadLine());
+                            switch (c)
+                            {
 
-                            break;
+                                case 1:
+                                    MI.DarkKnight();
+                                    break;
+                            
+                            }
 
-                        case 2:
-                            Console.WriteLine("\n");
-                            Console.WriteLine("#Biography Movies List#");
-                            Console.WriteLine("\n");
-                            M.BiographyMovieList();
-                            break;
 
-                        case 3:
-                            Console.WriteLine("\n");
-                            Console.WriteLine("#Romance Movies List#");
-                            Console.WriteLine("\n");
-                            M.RomanceMovieList();
-                            break;
+                              
+                                break;
 
-                        case 4:
-                            Console.WriteLine("\n");
-                            Console.WriteLine("#Thriller Movies List#");
-                            Console.WriteLine("\n");
-                            M.ThrillerMovieList();
-                            break;
+                            case 2:
+                                Console.WriteLine("\n");
+                                Console.WriteLine("#Biography Movies List#");
+                                Console.WriteLine("\n");
+                                M.BiographyMovieList();
 
-                        case 5:
-                            Console.WriteLine("\n");
-                            Console.WriteLine("#Scifi Movies List#");
-                            Console.WriteLine("\n");
-                            M.ScifiMovieList();
+                                break;
 
-                            break;
+                            case 3:
+                                Console.WriteLine("\n");
+                                Console.WriteLine("#Romance Movies List#");
+                                Console.WriteLine("\n");
+                                M.RomanceMovieList();
+                                break;
 
-                    }
+                            case 4:
+                                Console.WriteLine("\n");
+                                Console.WriteLine("#Thriller Movies List#");
+                                Console.WriteLine("\n");
+                                M.ThrillerMovieList();
+                                break;
+
+                            case 5:
+                                Console.WriteLine("\n");
+                                Console.WriteLine("#Scifi Movies List#");
+                                Console.WriteLine("\n");
+                                M.ScifiMovieList();
+
+                                break;
+
+                        }
                     break;
 
-
+                    
 
                 case 2:
 
