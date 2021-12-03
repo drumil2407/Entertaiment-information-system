@@ -9,8 +9,7 @@ namespace Entertainment
    {
 
       public string MoviesName { get; set; }
-   
-
-
-    }
+      public string TvSeriesName { get; set; }
+        
+  }
 }

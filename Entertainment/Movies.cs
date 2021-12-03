@@ -12,16 +12,16 @@ namespace Entertainment
         //ActionMovieList, BiographyMovieList, RomanceMovieList, ThrillerMovieLis, ScifiMovieList  
 
         private new List<string> MoviesName = new List<string>();
-        
 
+        
         public void ActionMovieList()
         {
             
-            MoviesName.Add("The Dark Knight");
-            MoviesName.Add("Inception");
-            MoviesName.Add("Gladiator");
-            MoviesName.Add("Dune");
-            MoviesName.Add("The Expandables");
+            MoviesName.Add("1.The Dark Knight");
+            MoviesName.Add("2.Inception");
+            MoviesName.Add("3.Gladiator");
+            MoviesName.Add("4.Dune");
+            MoviesName.Add("5.The Expandables");
 
 
             for (int i = 0; i < MoviesName.Count; i++)
@@ -32,24 +32,25 @@ namespace Entertainment
         public void BiographyMovieList()
         {
 
-            MoviesName.Add("The theory of everything");
-            MoviesName.Add("The Imitation Game");
-            MoviesName.Add("The Social Network");
-            MoviesName.Add("American Sniper");
-            MoviesName.Add("First Man");
+            MoviesName.Add("1.The theory of everything");
+            MoviesName.Add("2.The Imitation Game");
+            MoviesName.Add("3.The Social Network");
+            MoviesName.Add("4.American Sniper");
+            MoviesName.Add("5.First Man");
 
             for (int i = 0; i < MoviesName.Count; i++)
                 Console.WriteLine(MoviesName[i]);
-
+                
         }
 
         public void RomanceMovieList()
         {
-            MoviesName.Add("Titanic");
-            MoviesName.Add("The Shape of water");
-            MoviesName.Add("Me before you");
-            MoviesName.Add("2:22");
-            MoviesName.Add("La la land");
+            MoviesName.Add("1.Titanic");
+            MoviesName.Add("2.The Shape of water");
+            MoviesName.Add("3.Me before you");
+            MoviesName.Add("4.2:22");
+            MoviesName.Add("5.La la land");
+            
 
             for (int i = 0; i < MoviesName.Count; i++)
                 Console.WriteLine(MoviesName[i]);
@@ -59,11 +60,11 @@ namespace Entertainment
         public void ThrillerMovieList()
         {
 
-            MoviesName.Add("Parasite");
-            MoviesName.Add("Gone girl");
-            MoviesName.Add("The girl with the dragon tattoo");
-            MoviesName.Add("Wind river");
-            MoviesName.Add("The revanant");
+            MoviesName.Add("1.Parasite");
+            MoviesName.Add("2.Gone girl");
+            MoviesName.Add("3.The girl with the dragon tattoo");
+            MoviesName.Add("4.Wind river");
+            MoviesName.Add("5.The revanant");
 
             for (int i = 0; i < MoviesName.Count; i++)
                 Console.WriteLine(MoviesName[i]);
@@ -72,11 +73,11 @@ namespace Entertainment
         public void ScifiMovieList()
         {
 
-            MoviesName.Add("The passengers");
-            MoviesName.Add("Venom");
-            MoviesName.Add("Upgrade");
-            MoviesName.Add("The blade runner");
-            MoviesName.Add("Chaos Walking");
+            MoviesName.Add("1.The passengers");
+            MoviesName.Add("2.Venom");
+            MoviesName.Add("3.Upgrade");
+            MoviesName.Add("4.The blade runner");
+            MoviesName.Add("5.Chaos Walking");
 
             for (int i = 0; i < MoviesName.Count; i++)
                 Console.WriteLine(MoviesName[i]);

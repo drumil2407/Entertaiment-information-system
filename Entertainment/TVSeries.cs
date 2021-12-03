@@ -11,7 +11,7 @@ namespace Entertainment
 
     class TVSeries : AbstractEntertaiment
     {
-        //I use a generic list to add movie names in 5 genre category methods as below
+        //I use a generic list to add Tv series names in 5 genre category in methods as below
 
         //ActionTvseriesList, BiographyTvseriesList, RomanceTvseriesList, ThrillerTvseriesLis, ScifiTvseriesList  
 
@@ -20,67 +20,67 @@ namespace Entertainment
         public void ActionTvSeriesList()
         {
 
-            TvSeriesName.Add("Strike back");
-            TvSeriesName.Add("Arrow");
-            TvSeriesName.Add("Warrior");
-            TvSeriesName.Add("Nikita");
-            TvSeriesName.Add("The human target");
+            TvSeriesName.Add("1.Strike back");
+            TvSeriesName.Add("2.Arrow");
+            TvSeriesName.Add("3.Warrior");
+            TvSeriesName.Add("4.Nikita");
+            TvSeriesName.Add("5.The human target");
 
 
             for (int i = 0; i < TvSeriesName.Count; i++)
-                Console.WriteLine(MoviesName[i]);
+                Console.WriteLine(TvSeriesName[i]);
         }
 
         public void BiographyTvSeriesList()
         {
 
-            TvSeriesName.Add("Da vinci's demons");
-            TvSeriesName.Add("Narcos");
-            TvSeriesName.Add("Manhunt");
-            TvSeriesName.Add("The Crown");
-            TvSeriesName.Add("Spartacus");
+            TvSeriesName.Add("1.Da vinci's demons");
+            TvSeriesName.Add("2.Narcos");
+            TvSeriesName.Add("3.Manhunt");
+            TvSeriesName.Add("4.The Crown");
+            TvSeriesName.Add("5.Spartacus");
 
             for (int i = 0; i < TvSeriesName.Count; i++)
-                Console.WriteLine(MoviesName[i]);
+                Console.WriteLine(TvSeriesName[i]);
 
         }
 
         public void RomanceTvSeriesList()
         {
-            TvSeriesName.Add("Once upon a time");
-            TvSeriesName.Add("Beauty and the beast");
-            TvSeriesName.Add("A Discovery of Witches");
-            TvSeriesName.Add("El Chapo");
-            TvSeriesName.Add("Medici");
+            TvSeriesName.Add("1.Once upon a time");
+            TvSeriesName.Add("2.Beauty and the beast");
+            TvSeriesName.Add("3.A Discovery of Witches");
+            TvSeriesName.Add("4.El Chapo");
+            TvSeriesName.Add("5.Medici");
 
             for (int i = 0; i < TvSeriesName.Count; i++)
-                Console.WriteLine(MoviesName[i]);
+                Console.WriteLine(TvSeriesName[i]);
         }
 
         public void ThrillerTvseriesList()
         {
 
-            TvSeriesName.Add("The Sinner");
-            TvSeriesName.Add("You");
-            TvSeriesName.Add("Mindhumter");
-            TvSeriesName.Add("Strangers");
-            TvSeriesName.Add("Hannibal");
+            TvSeriesName.Add("1.The Sinner");
+            TvSeriesName.Add("2.You");
+            TvSeriesName.Add("3.Mindhumter");
+            TvSeriesName.Add("4.Strangers");
+            TvSeriesName.Add("5.Hannibal");
 
             for (int i = 0; i < TvSeriesName.Count; i++)
-                Console.WriteLine(MoviesName[i]);
+                Console.WriteLine(TvSeriesName[i]);
         }
 
         public void ScifiTvSeriesList()
         {
 
-            TvSeriesName.Add("Westworld");
-            TvSeriesName.Add("Altered carbon");
-            TvSeriesName.Add("Lost in space");
-            TvSeriesName.Add("The Expanse");
-            TvSeriesName.Add("Dark Matter");
+            TvSeriesName.Add("1.Westworld");
+            TvSeriesName.Add("2.Altered carbon");
+            TvSeriesName.Add("3.Lost in space");
+            TvSeriesName.Add("4.The Expanse");
+            TvSeriesName.Add("5.Dark Matter");
 
             for (int i = 0; i < TvSeriesName.Count; i++)
-                Console.WriteLine(MoviesName[i]);
+                Console.WriteLine(TvSeriesName[i]);
 
         }
     }
