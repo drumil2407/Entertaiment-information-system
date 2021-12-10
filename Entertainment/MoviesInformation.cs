@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entertainment
 {
-    class MoviesInformation : AbstractEntertaiment
+
+
+    class MoviesInformation : Movies
     {
 
         public void DarkKnight()

@@ -6,16 +6,27 @@ using System.Threading.Tasks;
 
 namespace Entertainment
 {
+    interface ITvserieName
+    {
+        public abstract void ActionTvSeriesList();
+        public abstract void BiographyTvSeriesList();
+        public abstract void RomanceTvSeriesList();
+        public abstract void ThrillerTvseriesList();
+        public abstract void ScifiTvSeriesList();
+
+    }
        //Here I give 5 different genre with 5 movies
 
 
-    class TVSeries : AbstractEntertaiment
+    class TVSeries : ITvserieName
     {
         //I use a generic list to add Tv series names in 5 genre category in methods as below
 
         //ActionTvseriesList, BiographyTvseriesList, RomanceTvseriesList, ThrillerTvseriesLis, ScifiTvseriesList  
 
-        private new List<string> TvSeriesName = new List<string>();
+        private List<string> TvSeriesName = new List<string>();
+
+
 
         public void ActionTvSeriesList()
         {

@@ -10,17 +10,20 @@ namespace Entertainment
             Movies M = new Movies();
             //class Tvseries object
             TVSeries TV = new TVSeries();
-
+            //class Movieinformation object
             MoviesInformation MI = new MoviesInformation();
+            //class upcomingMoviesAndTvShows object
+            UpcomingMoviesAndTvShows UMT = new UpcomingMoviesAndTvShows();
 
-         
-            
+
+
             Console.WriteLine("+++++++Welcome to Entertainment Catalog System+++++++++");
             Console.WriteLine("\n");
             Console.WriteLine("Choose One of the options");
             Console.WriteLine("\n");
             Console.WriteLine("1.Movies");
             Console.WriteLine("2.Tvseries");
+            Console.WriteLine("3.UpcomingMoviesAndTvShows");
 
             // Use switch case to navigate through the different genre of movies
 
@@ -48,6 +51,8 @@ namespace Entertainment
                         {
 
                             case 1:
+
+                            // method which is called is from abstract class entertainment
 
                                 Console.WriteLine("\n");
                                 Console.WriteLine("#Action Movies List#");
@@ -155,7 +160,9 @@ namespace Entertainment
                             break;
                     }
                 break;
-                       
+                case 3:
+                    UMT.run();
+                    break;
             }
 
         }

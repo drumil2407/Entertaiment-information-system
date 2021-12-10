@@ -3,20 +3,25 @@ using System.Collections.Generic;
 
 namespace Entertainment
 {
+    
     //Here I give 5  genre with 5 movies
 
-    class Movies : AbstractEntertaiment
+    class Movies : AbstractMovies
     {
+
+        public string MovieDescription { get; set; }
+        public double Ratings { get; set; }
+        public string Review { get; set; }
+        public string Casts { get; set; }
+
         //I use a generic list to add movie names in 5 genre category in methods as below
 
         //ActionMovieList, BiographyMovieList, RomanceMovieList, ThrillerMovieLis, ScifiMovieList  
 
         private new List<string> MoviesName = new List<string>();
-
-        
-        public void ActionMovieList()
+        public override void ActionMovieList()
         {
-            
+
             MoviesName.Add("1.The Dark Knight");
             MoviesName.Add("2.Inception");
             MoviesName.Add("3.Gladiator");
@@ -26,10 +31,10 @@ namespace Entertainment
 
             for (int i = 0; i < MoviesName.Count; i++)
                 Console.WriteLine(MoviesName[i]);
-            
+
         }
 
-        public void BiographyMovieList()
+        public override void BiographyMovieList()
         {
 
             MoviesName.Add("1.The theory of everything");
@@ -40,24 +45,24 @@ namespace Entertainment
 
             for (int i = 0; i < MoviesName.Count; i++)
                 Console.WriteLine(MoviesName[i]);
-                
+
         }
 
-        public void RomanceMovieList()
+        public override void RomanceMovieList()
         {
             MoviesName.Add("1.Titanic");
             MoviesName.Add("2.The Shape of water");
             MoviesName.Add("3.Me before you");
             MoviesName.Add("4.2:22");
             MoviesName.Add("5.La la land");
-            
+
 
             for (int i = 0; i < MoviesName.Count; i++)
                 Console.WriteLine(MoviesName[i]);
 
         }
 
-        public void ThrillerMovieList()
+        public override void ThrillerMovieList()
         {
 
             MoviesName.Add("1.Parasite");
@@ -70,7 +75,7 @@ namespace Entertainment
                 Console.WriteLine(MoviesName[i]);
         }
 
-        public void ScifiMovieList()
+        public override void ScifiMovieList()
         {
 
             MoviesName.Add("1.The passengers");
@@ -83,6 +88,9 @@ namespace Entertainment
                 Console.WriteLine(MoviesName[i]);
 
         }
+        
+
+       
 
     }
 }
