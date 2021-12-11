@@ -1,18 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Entertainment
 {
+
+    //implemented an interface for All genre of tvseries
     interface ITvserieName
     {
-        public abstract void ActionTvSeriesList();
-        public abstract void BiographyTvSeriesList();
-        public abstract void RomanceTvSeriesList();
-        public abstract void ThrillerTvseriesList();
-        public abstract void ScifiTvSeriesList();
+          void ActionTvSeriesList();
+          void BiographyTvSeriesList();
+          void RomanceTvSeriesList();
+          void ThrillerTvseriesList();
+          void ScifiTvSeriesList();
 
     }
        //Here I give 5 different genre with 5 movies
@@ -20,13 +19,12 @@ namespace Entertainment
 
     class TVSeries : ITvserieName
     {
+       
         //I use a generic list to add Tv series names in 5 genre category in methods as below
 
         //ActionTvseriesList, BiographyTvseriesList, RomanceTvseriesList, ThrillerTvseriesLis, ScifiTvseriesList  
 
         private List<string> TvSeriesName = new List<string>();
-
-
 
         public void ActionTvSeriesList()
         {

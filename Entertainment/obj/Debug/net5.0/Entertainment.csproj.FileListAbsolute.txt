@@ -14,3 +14,11 @@ D:\CAMBRIAN\COMPUTER PRORAMMING-INTERNET OF THINGS\SEMESTER 3\OBJECT ORIENTED PR
 D:\CAMBRIAN\COMPUTER PRORAMMING-INTERNET OF THINGS\SEMESTER 3\OBJECT ORIENTED PROGRAMMING 2\Repositories\Entertaiment-information-system\Entertainment\obj\Debug\net5.0\ref\Entertainment.dll
 D:\CAMBRIAN\COMPUTER PRORAMMING-INTERNET OF THINGS\SEMESTER 3\OBJECT ORIENTED PROGRAMMING 2\Repositories\Entertaiment-information-system\Entertainment\obj\Debug\net5.0\Entertainment.pdb
 D:\CAMBRIAN\COMPUTER PRORAMMING-INTERNET OF THINGS\SEMESTER 3\OBJECT ORIENTED PROGRAMMING 2\Repositories\Entertaiment-information-system\Entertainment\obj\Debug\net5.0\Entertainment.genruntimeconfig.cache
+D:\CAMBRIAN\COMPUTER PRORAMMING-INTERNET OF THINGS\SEMESTER 3\OBJECT ORIENTED PROGRAMMING 2\Repositories\Entertaiment-information-system\Entertainment\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\CAMBRIAN\COMPUTER PRORAMMING-INTERNET OF THINGS\SEMESTER 3\OBJECT ORIENTED PROGRAMMING 2\Repositories\Entertaiment-information-system\Entertainment\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\CAMBRIAN\COMPUTER PRORAMMING-INTERNET OF THINGS\SEMESTER 3\OBJECT ORIENTED PROGRAMMING 2\Repositories\Entertaiment-information-system\Entertainment\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\CAMBRIAN\COMPUTER PRORAMMING-INTERNET OF THINGS\SEMESTER 3\OBJECT ORIENTED PROGRAMMING 2\Repositories\Entertaiment-information-system\Entertainment\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\CAMBRIAN\COMPUTER PRORAMMING-INTERNET OF THINGS\SEMESTER 3\OBJECT ORIENTED PROGRAMMING 2\Repositories\Entertaiment-information-system\Entertainment\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+D:\CAMBRIAN\COMPUTER PRORAMMING-INTERNET OF THINGS\SEMESTER 3\OBJECT ORIENTED PROGRAMMING 2\Repositories\Entertaiment-information-system\Entertainment\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+D:\CAMBRIAN\COMPUTER PRORAMMING-INTERNET OF THINGS\SEMESTER 3\OBJECT ORIENTED PROGRAMMING 2\Repositories\Entertaiment-information-system\Entertainment\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
+D:\CAMBRIAN\COMPUTER PRORAMMING-INTERNET OF THINGS\SEMESTER 3\OBJECT ORIENTED PROGRAMMING 2\Repositories\Entertaiment-information-system\Entertainment\obj\Debug\net5.0\Entertainment.csproj.CopyComplete

@@ -1,11 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Entertainment
+﻿namespace Entertainment
 {
-  abstract class AbstractMovies
+    abstract class AbstractMovies
   {
       //property for Moviename 
 

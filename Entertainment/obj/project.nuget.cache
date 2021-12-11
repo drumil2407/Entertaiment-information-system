@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "KdyXfork6GgYj2CQn2ZCGEN6+BuD6+3JapEA5NdvRzFaI6c1n7PGBIxAYWFe0czJD8vqgIXWSGhignEye2x6fA==",
+  "dgSpecHash": "rmEznyOhiYc6sCAMaTHTRQgxqjHyzqFPz7PrVjDVOTCywRwgdN1JjdxX8kUhsis1JQ0yYECznuP4NLF42Sosmg==",
   "success": true,
   "projectFilePath": "D:\\CAMBRIAN\\COMPUTER PRORAMMING-INTERNET OF THINGS\\SEMESTER 3\\OBJECT ORIENTED PROGRAMMING 2\\Repositories\\Entertaiment-information-system\\Entertainment\\Entertainment.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\drumi\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\drumi\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\drumi\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
