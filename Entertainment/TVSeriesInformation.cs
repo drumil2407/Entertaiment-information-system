@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Entertainment
 {
+    //This class add all Tvseries information of different genere of tvseries such as TV description, ratings, review, casts
+
     class TVSeriesInformation
     {
         public string TVDescription { get; set; }

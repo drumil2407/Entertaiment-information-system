@@ -2,8 +2,8 @@
 
 namespace Entertainment
 {
-
-
+    //This class add all movie information of different genere of movies such as Movie description, ratings, review, casts
+   
     class MoviesInformation : Movies
     {
 

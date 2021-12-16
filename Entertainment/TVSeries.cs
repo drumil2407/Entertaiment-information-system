@@ -5,6 +5,7 @@ namespace Entertainment
 {
 
     //implemented an interface for All genre of tvseries
+
     interface ITvserieName
     {
           void ActionTvSeriesList();
@@ -29,9 +30,9 @@ namespace Entertainment
         public void ActionTvSeriesList()
         {
 
-            TvSeriesName.Add("1.Strike back");
+            TvSeriesName.Add("1.Warrior");
             TvSeriesName.Add("2.Arrow");
-            TvSeriesName.Add("3.Warrior");
+            TvSeriesName.Add("3.Strike back");
             TvSeriesName.Add("4.Nikita");
             TvSeriesName.Add("5.The human target");
 
